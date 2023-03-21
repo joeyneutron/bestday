@@ -1,0 +1,95 @@
+body {
+    background-color: hsl(229, 87%, 91%);
+    overflow-x: hidden;
+    margin: 0 auto;
+    width: view;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 261px;
+    left: 0px;
+    top: 0px;
+    background-color:#FFFFFF;
+    font-family:'JejuGothic';
+    font-style: normal;
+    color:  #242C54;
+}
+th{
+    font-size:20px ;
+    text-align: left;
+}
+h1{
+    font-size:40px ;
+    padding-left: 50px;
+}
+h2 {
+    padding-left: 50px;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    left: 20px;
+    width: 100%
+}
+.btnSubmit{
+    position: absolute;
+    background-color: #D5DCFC;
+    font-family:'JejuGothic';
+    font-style: normal;
+    color:  #0F271A;
+    font-size:20px ;
+    border: 3px solid #D5DCFC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 900px;
+    margin-top: 200px;
+}
+div.info{
+    padding-left: 50px;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 39px;
+    width: 100%;
+    height: 100px;
+    left: 44px;
+    top: 97px;
+    padding-left: 50px;
+}
+input.box{
+    background: #FFFFFF;
+    border: 3px solid #D5DCFC;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 80px;
+    height: 39px;
+}
+input.startbox{
+    background: #FFFFFF;
+    border: 3px solid #D5DCFC;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 150px;
+    height: 39px;
+}
+
+main{
+    background-color: #0F271A;
+    position: absolute;
+    left: 40px;
+    top: 300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+ table {
+    padding-left: 50px;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    left: 44px;
+    padding: 20px;
+    width: 100%
+}

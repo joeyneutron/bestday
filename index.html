@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Day To Go Out</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>You're here for weather advice, right?</h1>
+        <h2>bestday will sugest the best day to go out based on the weather forecast for the next seven days in the exact location entered</h2>
+        <h2>bestday will determine this based on warmer temperatures and least chance of rainfall or snow</h2>
+        <form id="form">
+            <div class ="info">
+                <label for="startdate" class="labels">Start Date</label>
+                <input type="date" name="startdate" id="startdate" class="startbox">
+                <label for="longitude">Longitude</label>
+                <input type="number" name="longitude" id="longitude" class="box">
+                <label for="latitude">Latitude</label>
+                <input type="number" name="latitude" id="latitude" class="box">
+            </div>
+        </form>
+    </header>
+<button type="Submit" class="btnSubmit" id = "submit" onclick="main()">Submit</button>
+<main>
+    <div id = "display">
+        <table>
+            <tr>
+                <th>The best day to go out is</th>
+                <th id = "answer"></th>
+            </tr>
+            <tr>
+                <td>Maximum Temperature</td>
+                <td id="tmax"></td>
+            </tr>
+            <tr>
+                <td>Minimum Temperature</td>
+                <td id="tmin"></td>
+            </tr>
+            <tr>
+                <td>Maximum Apparent Temperature</td>
+                <td id="amax"></td>
+            </tr>
+            <tr>
+                <td>Minimum Apparent Temperature</td>
+                <td id="amin"></td>
+            </tr>
+            <tr>
+                <td>Snowfall Sum</td>
+                <td id="snow"></td>
+            </tr>
+            <tr>
+                <td>Precipitation Hours</td>            
+                <td id="rain"></td>
+            </tr>
+        </table>
+    </div>
+</main>
+<script src="bestday.js"></script>
+</body>
